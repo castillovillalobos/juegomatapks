@@ -1,0 +1,33 @@
+Hace unos meses, la “Cámara Secreta” de Oscurilandia decidió implementar un nuevo sistema de votación para sus leyes, dado el aumento en la cantidad de representantes. Esto generó vicios en el proceso, ya que muchos representantes, a fin de evitar aprobar una ley que no fuera de su gusto, se restaban de la votación, aumentando la cantidad en el universo de votos y dificultando con ello obtener el margen de aprobación necesario.
+
+Esto generó molestia en los ciudadanos de Oscurilandia, y están considerando seriamente invadir la “Cámara Secreta”, gracias a la ayuda de un grupo de superhéroes anónimos autodenominados “FirstLine”.
+
+En razón a la contingencia actual, los representantes han llamado a su grupo de acción, la élite de seguridad PKS, para restaurar el orden. Este grupo cuenta con tres tipos de vehículos para realizar operaciones:
+
+-Kromis:  Tienen  un  largo  de  tres  metros  cada  una,  y  son  utilizadas  para  transportar efectivos de la PKS.
+
+-Caguanos:Cada uno mide dos metros de largo, y su misión es lanzar confetis y dulces a quienes protestan.
+
+-Trupallas:Corresponden  a  efectivos  cibernéticos  con  tecnología  de  punta,  cada  uno ocupando en total un metro cuadrado de espacio, preparados para hacer entrar en razón a los manifestantes con la fuerza de sus ideas.
+
+Como  respuesta  a  las  acciones  de  la  PKS,  el  comando  FirstLine  solicita  que  se  desarrolle  un programa que los ayude a simular las posiciones de los efectivos alrededor de la Cámara Secreta, y de esta forma coordinar las acciones previas a la invasión.
+
+
+
+
+
+
+
+1.- Tiene un arsenal ilimitado de huevos, los que pueden lanzar libremente dentro del espacio considerado.  
+2.- Ingrese un número de fila y de columna, ambos válidos.
+Si el proyectil da: 
+3.- Si da sobre una Kromi, se asignan 3  puntos
+4.- Si da sobre un Caguano se asignan 2 puntos 
+5.- Si da sobre un Trupalla se asigna un punto
+6.- Si una Kromi ha sido inutilizada completamente se asignan 10 puntos adicionales. 
+7.- Si se inutiliza un Caguano se asignan 7 puntos adicionales. 
+8.- Un Trupalla queda inutilizado automáticamente al recibir un huevo, por tanto no existe puntaje adicional por estos efectos.
+9.- No hay una cantidad límite de huevos a lanzar, y un huevo puede caer más de una vez sobre una misma posición. 
+10.- Cada vez que una posición sea atacada por un huevo, el valor de la celda en la matriz original debe ser expresado como “H”. 
+11.- Si la celda sobre la que se lanza un huevo ya había sido atacada previamente, no se debe asignar puntaje por este concepto.
+12.- Finalmente, al terminar el programa se debe indicar el puntaje total obtenido por el usuario.
